@@ -4,7 +4,6 @@
 	width: calc(20% - 10px);
 	padding: 5px 5px 20px 5px;
 	background-color: #ccc;
-	border-radius: 12px;
 	overflow: hidden;
 }
 
@@ -25,8 +24,8 @@
 #RulesetsTab .rulesets .current > div { text-align: center; }
 #RulesetsTab .rules { padding-top: 5px; }
 #RulesetsTab .definitions .buttons { background-color: #ccc; padding: 3px 20px; }
-#RulesetsTab .definitions .buttons.top { border-radius: 12px 12px 0px 0px; margin-bottom: 5px; }
-#RulesetsTab .definitions .buttons.bottom { border-radius: 0px 0px 12px 12px; margin-top: 2px; }
+#RulesetsTab .definitions .buttons.top { margin-bottom: 5px; }
+#RulesetsTab .definitions .buttons.bottom { margin-top: 2px; }
 #RulesetsTab .definitions .buttons button { margin-left: 10px;}
 #RulesetsTab .definitions .buttons span { margin-left: 5px;}
 #RulesetsTab .definitions .section { width: 100%; clear: both; background-color: #eee; }
