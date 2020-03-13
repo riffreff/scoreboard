@@ -1,9 +1,6 @@
 #DataManagementTab #saveLoad table { width: 100%; border-spacing: 1px 0px; }
 #DataManagementTab #saveLoad table tr>td { text-align: center; background: #eee; }
-#DataManagementTab #saveLoad table tr.Name>td { background: #ccc; border-radius: 12px 12px 0px 0px; }
-#DataManagementTab #saveLoad table tr.Content>td:first-of-type { border-radius: 0px 0px 0px 12px; }
-#DataManagementTab #saveLoad table tr.Content>td:last-of-type { border-radius: 0px 0px 12px 0px; }
-#DataManagementTab #saveLoad table tr.Content>td:only-of-type { border-radius: 0px 0px 12px 12px; }
+#DataManagementTab #saveLoad table tr.Name>td { background: #ccc; }
 
 #DataManagementTab #GameData { width: 100%; height: 70vh; }
 #DataManagementTab #gameData table { background: #ddd; font-size: 125%; font-weight: bold; } 
@@ -33,10 +30,6 @@
 #DataManagementTab table.Type tr.Type>th { background: #ccc; }
 #DataManagementTab table.Type tr.Controls>th { background: #ddd; }
 #DataManagementTab table.Type tr.Item>td { background: #eee; }
-#DataManagementTab table.Type tr.Type>th.Type { border-radius: 12px 12px 0px 0px; }
-#DataManagementTab table.Type.Hide tr.Type>th.Type { border-radius: 12px; }
-#DataManagementTab table.Type tr.Item:last-of-type>td:first-of-type { border-bottom-left-radius: 12px; }
-#DataManagementTab table.Type tr.Item:last-of-type>td:last-of-type { border-bottom-right-radius: 12px; }
 
 	/* Make preview background black */
 #DataManagementTab #Images table.Type tr.Item td.Preview { background: #000; }
